@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="line1">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="line2">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="line3">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="line4">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="line5">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="line6">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="line7">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="line8">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="col1">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="col2">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="col3">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="col4">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="col5">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="col6">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="col7">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="col8">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Problema 8 Rainhas"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jScrollBar1" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="48" max="32767" attributes="0"/>
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="outputScreen" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="86" max="-2" attributes="0"/>
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollBar1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="outputScreen" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+            <EtchetBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jRB41" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB42" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB43" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB44" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB45" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB46" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB47" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB48" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jRB31" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB32" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB33" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB34" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB35" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB36" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB37" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB38" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="jRB21" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB22" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB23" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB24" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB25" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB26" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB27" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB28" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="jRB11" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB12" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB13" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB14" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB15" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB16" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB17" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB18" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jRB81" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB82" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB83" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB84" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB85" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB86" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB87" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB88" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jRB71" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB72" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB73" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB74" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB75" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB76" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB77" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB78" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jRB61" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB62" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB63" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB64" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB65" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB66" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB67" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB68" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jRB51" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB52" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB53" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB54" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB55" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB56" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB57" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRB58" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jRB11" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB12" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB13" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB14" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB15" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB16" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB17" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB18" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jRB21" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB22" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB23" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB24" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB25" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB26" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB27" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB28" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jRB31" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB32" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB33" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB34" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB35" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB36" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB37" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB38" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jRB41" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB42" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB43" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB44" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB45" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB46" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB47" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB48" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jRB51" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB52" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB53" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB54" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB55" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB56" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB57" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB58" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jRB61" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB62" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB63" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB64" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB65" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB66" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB67" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB68" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jRB71" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB72" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB73" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB74" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB75" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB76" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB77" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB78" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jRB81" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB82" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB83" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB84" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB85" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB86" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB87" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRB88" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JRadioButton" name="jRB11">
+          <Properties>
+            <Property name="selected" type="boolean" value="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB12">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB13">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB14">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB15">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB16">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB17">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB18">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB21">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB22">
+          <Properties>
+            <Property name="selected" type="boolean" value="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB23">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB24">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB25">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB26">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB27">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB28">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB31">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB32">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB33">
+          <Properties>
+            <Property name="selected" type="boolean" value="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB34">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB35">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB36">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB37">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB38">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB41">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB42">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB43">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB44">
+          <Properties>
+            <Property name="selected" type="boolean" value="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB45">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB46">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB47">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB48">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB51">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB52">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB53">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB54">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB55">
+          <Properties>
+            <Property name="selected" type="boolean" value="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB56">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB57">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB58">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB61">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB62">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB63">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB64">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB65">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB66">
+          <Properties>
+            <Property name="selected" type="boolean" value="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB67">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB68">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB71">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB72">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB73">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB74">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB75">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB76">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB77">
+          <Properties>
+            <Property name="selected" type="boolean" value="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB78">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB81">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB82">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB83">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB84">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB85">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB86">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB87">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRB88">
+          <Properties>
+            <Property name="selected" type="boolean" value="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Estado Inicial"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JScrollBar" name="jScrollBar1">
+      <Properties>
+        <Property name="maximum" type="int" value="0"/>
+        <Property name="orientation" type="int" value="0"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JPanel" name="outputScreen">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="366" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Procurar Solu&#xe7;&#xe3;o"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
